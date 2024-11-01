@@ -1,0 +1,52 @@
+*QUERY STRING*
+npm install query-string
+
+------------------------------------------------------------------------------------
+
+*REACT-COUNTUP*
+npm install react-countup
+'use client';
+
+------------------------------------------------------------------------------------
+
+*CHART JS*
+npm install chart.js
+npm install react-chartjs-2
+
+'use client';
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
+import { Doughnut } from 'react-chartjs-2';
+
+import { Doughnut } from 'react-chartjs-2';
+
+ChartJS.register(ArcElement, Tooltip, Legend)
+
+------------------------------------------------------------------------------------
+
+SHADCN COMPONENT SHEET
+npx shadcn@latest add sheet
+
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet"
+
+USAGE
+<Sheet>
+  <SheetTrigger>Open</SheetTrigger>
+  <SheetContent>
+    <SheetHeader>
+      <SheetTitle>Are you absolutely sure?</SheetTitle>
+      <SheetDescription>
+        This action cannot be undone. This will permanently delete your account
+        and remove your data from our servers.
+      </SheetDescription>
+    </SheetHeader>
+  </SheetContent>
+</Sheet>
+
+------------------------------------------------------------------------------------
