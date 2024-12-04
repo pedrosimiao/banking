@@ -1,8 +1,7 @@
-$ npx tree-cli -l 4 -a --charset ascii --ignore .git --ignore .next 
---ignore node_modules --ignore eslint --ignore babel --ignore public > structure.txt
-
 
 C:\Users\simia\Desktop\EBAC\Aprendizado Externo\banking-app
+├── .env.example
+├── .env.local
 ├── .eslintrc.json
 ├── .gitignore
 ├── app
@@ -14,16 +13,41 @@ C:\Users\simia\Desktop\EBAC\Aprendizado Externo\banking-app
 |  |     └── page.tsx
 |  ├── (root)
 |  |  ├── layout.tsx
-|  |  └── page.tsx
+|  |  ├── my-banks
+|  |  |  └── page.tsx
+|  |  ├── page.tsx
+|  |  ├── payment-transfer
+|  |  |  └── page.tsx
+|  |  └── transaction-history
+|  |     └── page.tsx
 |  ├── globals.css
 |  └── layout.tsx
 ├── components
+|  ├── AnimatedCounter.tsx
+|  ├── AuthForm.tsx
+|  ├── BankCard.tsx
+|  ├── CustomInput.tsx
+|  ├── DoughnutChart.tsx
+|  ├── Footer.tsx
+|  ├── HeaderBox.tsx
+|  ├── MobileNav.tsx
+|  ├── RightSidebar.tsx
+|  ├── Sidebar.tsx
+|  ├── TotalBalanceBox.tsx
 |  └── ui
-|     └── button.tsx
+|     ├── button.tsx
+|     ├── form.tsx
+|     ├── input.tsx
+|     ├── label.tsx
+|     └── sheet.tsx
 ├── components.json
 ├── constants
 |  └── index.ts
+├── installed packages.txt
 ├── lib
+|  ├── actions
+|  |  └── user.actions.ts
+|  ├── appwrite.ts
 |  └── utils.ts
 ├── next-env.d.ts
 ├── next.config.mjs
@@ -37,9 +61,9 @@ C:\Users\simia\Desktop\EBAC\Aprendizado Externo\banking-app
 └── types
    └── index.d.ts
 
-directory: 1062 file: 5794
+directory: 1787 file: 11352
 
-ignored: directory (26), file (1)
+ignored: directory (30), file (1)
 
 
 [2K[1G

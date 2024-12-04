@@ -1,3 +1,10 @@
+*Comando Gitbash árvore do projeto em .txt*
+
+$ npx tree-cli -l 4 -a --charset "utf-8" --ignore "node_modules" --ignore ".git" 
+--ignore ".next" --ignore "eslint" --ignore "babel" --ignore "public" > structure.txt
+
+------------------------------------------------------------------------------------
+
 *QUERY STRING*
 npm install query-string
 

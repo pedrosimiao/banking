@@ -159,7 +159,7 @@
   }
 
   .profile-banner {
-    @apply h-[120px] w-full bg-gradient-mesh bg-cover bg-no-repeat;
+    @apply h-[120px] w-full bg-marble-banner bg-cover bg-no-repeat;
   }
 
   .profile {
@@ -274,9 +274,23 @@
     @apply flex h-screen w-full sticky top-0 items-center justify-end bg-sky-1 max-lg:hidden;
   }
 
+  .bg-auth-sign-in {
+    background-image: url('/icons/bg-8.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .bg-auth-sign-up {
+    background-image: url('/icons/bg-8.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
   /* Auth Form */
   .auth-form {
-    @apply flex min-h-screen w-full max-w-[420px] flex-col justify-center gap-5 py-10 md:gap-8;
+    @apply min-h-min w-full max-w-[480px] flex-col justify-center gap-5 py-10 px-6 bg-gray-300/20 border border-gray-700 rounded-md shadow-md md:gap-8;
   }
 
   .form-item {
@@ -284,7 +298,7 @@
   }
 
   .form-label {
-    @apply text-14 w-full max-w-[280px] font-medium text-gray-700;
+    @apply text-14 w-full max-w-[280px] font-medium text-gray-100;
   }
 
   .form-message {
@@ -292,7 +306,7 @@
   }
 
   .form-btn {
-    @apply text-16 rounded-lg border border-bankGradient bg-bank-gradient font-semibold text-white shadow-form;
+    @apply text-16 rounded-lg border border-none bg-bank-gradient font-semibold text-white shadow-form;
   }
 
   .form-link {

@@ -13,8 +13,8 @@ const ibmPlexSerif = IBM_Plex_Serif({
 
 export const metadata: Metadata = {
   title: "Simeone",
-  description: "Simeone is a modern banking platform for everyone",
-  icons: '/icons/logo.svg'
+  description: "Simeone - One bank to rule them all",
+  icons: '/icons/logo-simeone.png'
 };
 
 export default function RootLayout({

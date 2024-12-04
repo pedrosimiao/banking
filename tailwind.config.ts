@@ -70,8 +70,9 @@ const config = {
         },
       },
       backgroundImage: {
-        "bank-gradient": "linear-gradient(90deg, #0179FE 0%, #4893FF 100%)",
-        "gradient-mesh": "url('/icons/gradient-mesh.svg')",
+        "bank-gradient": "linear-gradient(90deg, #000000 0%, #4B4B4B 100%)",
+        // "gradient-mesh": "url('/icons/gradient-mesh.svg')",
+        "marble-banner": "url('/icons/marble.png')",
         "bank-green-gradient":
           "linear-gradient(90deg, #01797A 0%, #489399 100%)",
       },

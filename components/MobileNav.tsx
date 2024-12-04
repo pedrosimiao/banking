@@ -18,6 +18,7 @@ import Link from 'next/link'
 
 import { cn } from '@/lib/utils'
 import { sidebarLinks } from '@/constants'
+import Footer from './Footer'
 
 
 const MobileNav = ({ user }: MobileNavProps) => {
@@ -37,7 +38,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
                 </SheetTrigger>
                 <SheetContent side="left" className='border-none bg-white'>
                     <Link href="/" className='flex cursor-pointer items-center gap-1 px-4'>
-                        <Image src="/icons/logo.svg" width={34} height={34} alt='Simeone logo' />
+                        <Image src="/icons/logo-simeone.png" width={34} height={34} alt='Simeone logo' />
                         <h1 className='text-26 font-ibm-plex-serif font-bold text-black-1'>Simeone</h1>
                     </Link>
 
@@ -78,7 +79,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
                             </nav>
                         </SheetClose>
 
-                        FOOTER
+                        <Footer user={user} type='mobile' />
                     </div>
 
                 </SheetContent>
